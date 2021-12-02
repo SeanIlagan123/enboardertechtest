@@ -1,0 +1,24 @@
+{
+  "name": "tech-test-junior-fullstack-engineer",
+  "version": "1.0.0",
+  "description": "Quick Tests in JS and React",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "parcel answers/answer07/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enboarder/tech-test-junior-fullstack-engineer.git"
+  },
+  "author": "enboarder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enboarder/tech-test-junior-fullstack-engineer/issues"
+  },
+  "homepage": "https://github.com/enboarder/tech-test-junior-fullstack-engineer#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

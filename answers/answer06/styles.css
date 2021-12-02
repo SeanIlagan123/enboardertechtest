@@ -1,0 +1,74 @@
+.left-top,
+.left-bottom,
+.right-top,
+.right-bottom {
+    border-style: solid;
+    padding: 16px;
+    margin: 16px;
+    border-width: thin;
+}
+
+.left-top {
+    border-style: solid;
+    background-color: red;
+    border-color: black;
+    color: white;
+}
+
+.right-bottom {
+    border-style: solid;
+    background-color: red;
+    border-color: black;
+    color: white;
+}
+
+.top {
+    border-style: solid;
+    margin: 16px;
+    padding: 16px;
+    border-width: thin;
+}
+
+.top-inner {
+    flex-direction: row;
+    display: flex;
+    border-width: thin;
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: pink;
+    border: solid;
+    border-width: thin;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bottom-big-container {
+    margin: 16px;
+    padding: 16px;
+    border-style: solid;
+    border-width: thin;
+    overflow-y: scroll;
+    height: 270px;
+    -ms-overflow-style: none; /* edge */
+    scrollbar-width: none; /* firefox */
+}
+
+.bottom-big-container::-webkit-scrollbar {
+    display: none; /* chrome */
+}
+
+.App button {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    padding: 12px;
+    margin: 12px;
+}
